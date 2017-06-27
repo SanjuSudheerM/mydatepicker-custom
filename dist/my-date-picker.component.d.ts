@@ -113,4 +113,5 @@ export declare class MyDatePicker implements OnChanges, ControlValueAccessor {
     parseSelectedMonth(ms: string): IMyMonth;
     setHeaderBtnDisabledState(m: number, y: number): void;
     customDateMasking(value: string): void;
+    limitInputLength(event: any): void;
 }
